@@ -86,8 +86,6 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := qti
-#LOCAL_JAVA_LIBRARIES := telephony-common ims-common ims-ext-common ims-coext-common_system voip-common
-#LOCAL_STATIC_JAVA_LIBRARIES := ims-ext-common ims-ext-common ims-ext-common_system
 LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
